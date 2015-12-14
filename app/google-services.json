@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_id": "festive-freedom-114807",
+    "project_number": "107383105233",
+    "name": "Google Login Integration"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107383105233:android:7de349bb27a80d24",
+        "client_id": "android:com.shri.googlelogin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.shri.googlelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107383105233-2leon8dq3bqie1opj4kahsotp7mlc7cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shri.googlelogin",
+            "certificate_hash": "A331396417EC1C39BB4FFCE34D3B3AFEEE85ABE7"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
