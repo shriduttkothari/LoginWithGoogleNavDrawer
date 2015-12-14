@@ -1,0 +1,1 @@
+LoginWithGoogleNavDrawer is the Sample app to demonstrate how to do Google Login in Android app and show logged in user's information on a Navigation Drawer.
