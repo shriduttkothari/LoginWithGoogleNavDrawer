@@ -22,6 +22,9 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
 
+    // String tag for loggin details
+    private static final LOG_TAG = MainActivity.class.getSimpleName();
+    
     //Signin button
     private SignInButton signInButton;
 
@@ -134,6 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
-
+        // View error details on failure due to any sort of intrupption
+        Log.e(LOG_TAG, connectionResult.getErrorCode()+" "+connectionResult.getErrorMessage())
     }
 }
